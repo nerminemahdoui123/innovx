@@ -103,7 +103,7 @@ EMAIL_PASS=mot_de_passe_des_appliactions
 
 **-EMAIL_PASS**- : Mot de passe d'application pour Gmail. Vous pouvez obtenir ce mot de passe depuis la section sécurité de votre compte Gmail (voir ci-dessous pour plus de détails).
 
-### **Configuration de Nodemailer**
+###**Configuration de Nodemailer**
 
 -Installez Nodemailer et configurez-le pour envoyer des emails. Suivez les étapes décrites dans la documentation de Nodemailer pour créer un transporteur SMTP et envoyer des emails.
 Obtenir le mot de passe d'application Gmail :
@@ -113,12 +113,12 @@ Accédez à Mon compte Google.
 Allez dans Sécurité.
 Sous Connexion à Google, sélectionnez Mots de passe des applications.
 Suivez les instructions pour générer un mot de passe d'application. Utilisez ce mot de passe dans votre fichier .env.
-### **Configuration de Dialogflow**
+###**Configuration de Dialogflow**
 -Accédez à Dialogflow Console.
 -Créez un nouvel agent avec le nom innovx-agent.
 -Ajouter les intents :
 Téléchargez les intents pour votre agent Dialogflow(trouvé dans le dossier nomé "Intents créér par dialgFlow" dans le projet).
- **.-Obtenir les identifiants JSON:**
+ **-Obtenir les identifiants JSON:**
 Accéder à Google Cloud Console
 -Rendez-vous sur Google Cloud Console.
 -Créer une clé de service
