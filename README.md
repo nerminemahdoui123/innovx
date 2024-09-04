@@ -31,31 +31,50 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 - **Nodemailer**
 - **Dialogflow**
 
-## **Configuration du Backend**
+# Installation et Configuration du Projet
 
-### **Démarrage du Projet**
+## Installation du Frontend
 
-Pour le **frontend** :
+1. **Accédez au répertoire du frontend :**
+    ```bash
+    cd frontend
+    ```
 
-```bash
-cd frontend
-npm install
-npm start
+2. **Installez les dépendances :**
+    ```bash
+    npm install
+    ```
 
-Pour le **backend **:
+3. **Démarrez l'application :**
+    ```bash
+    npm start
+    ```
 
-```bash
-cd backend
-npm install
-npm start
-bash```
--Assurez-vous également d'ouvrir le fichier de base de données (innovx) dans phpMyAdmin pour vérifier les tables et les données.
+## Installation du Backend
 
-## **Configuration des Variables d'Environnement**
--Créez un fichier .env à la racine du projet backend et ajoutez les variables suivantes. Ces variables permettent de configurer les connexions à la base de données, l'envoi d'emails, et l'intégration avec Dialogflow :
+1. **Accédez au répertoire du backend :**
+    ```bash
+    cd backend
+    ```
 
-### **.env**
-Copier le code
+2. **Installez les dépendances :**
+    ```bash
+    npm install
+    ```
+
+3. **Démarrez le serveur :**
+    ```bash
+    npm start
+    ```
+
+4. **Vérifiez la base de données :**
+   - Ouvrez le fichier de base de données (`innovx`) dans phpMyAdmin pour vérifier les tables et les données.
+
+## Configuration des Variables d'Environnement
+
+Créez un fichier `.env` à la racine du répertoire `backend` et ajoutez les variables suivantes :
+
+### Contenu du Fichier `.env`
 
 ```bash
 DB_HOST=localhost
@@ -68,8 +87,7 @@ DIALOGFLOW_CREDENTIALS_PATH="chemin/vers/dialogflow-credentials.json"
 
 EMAIL_USER=votre_email@example.com
 EMAIL_PASS=mot_de_passe_des_appliactions
-Explication des Variables d'Environnement
-DB_HOST : Adresse du serveur MySQL (généralement localhost).
+
 
 **-DB_USER **: Nom d'utilisateur pour se connecter à MySQL. Remplacez votre_utilisateur par votre nom d'utilisateur MySQL.
 
