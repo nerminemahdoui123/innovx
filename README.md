@@ -103,7 +103,6 @@ EMAIL_PASS=mot_de_passe_des_appliactions
 
 - **EMAIL_PASS** : Mot de passe d'application pour Gmail. Vous pouvez obtenir ce mot de passe depuis la section sécurité de votre compte Gmail.
 
-
 ### Configuration de Nodemailer
 
 1. **Installez Nodemailer** et configurez-le pour envoyer des emails. Suivez les étapes décrites dans la [documentation de Nodemailer](https://nodemailer.com/about/) pour créer un transporteur SMTP et envoyer des emails.
@@ -117,7 +116,7 @@ EMAIL_PASS=mot_de_passe_des_appliactions
 
 ### Configuration de Dialogflow
 
-1. **Accédez à Dialogflow Console**.
+1. **Accédez à Dialogflow Console :**
    - Créez un nouvel agent avec le nom `innovx-agent`.
 
 2. **Ajouter les intents :**
@@ -139,3 +138,4 @@ EMAIL_PASS=mot_de_passe_des_appliactions
 
 ```env
 DIALOGFLOW_CREDENTIALS_PATH=/chemin/vers/le/fichier.json
+
