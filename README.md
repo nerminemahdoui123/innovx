@@ -1,5 +1,9 @@
 # **InnovX**
-![homedmin](https://github.com/user-attachments/assets/ef14926f-fa4c-4810-8431-18a1fb4c3600)
+![Uploading home.png…]()
+![Uploading objectifs.png…]()
+![Uploading Capture d’écran 2024-09-03 135524.png…]()
+
+
 
 InnovX est une application web développée pour représenter une startup qui présente ses solutions en intelligence artificielle (IA), ses blogs, et ses offres d'emploi. Les administrateurs peuvent gérer ces éléments à partir d'une interface d'administration accessible via `http://localhost:3000/admin`. Le site utilise des technologies modernes pour offrir une expérience utilisateur fluide et interactive.
 
