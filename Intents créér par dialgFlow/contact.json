@@ -1,0 +1,171 @@
+{
+  "id": "1b171230-41e5-4bf4-aa7b-547619dfbfdb",
+  "name": "contact",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You can contact us at the following email address: support@innovx.com , or send email with the contact form"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i'm client",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa4719f6-239d-446a-b536-ed680b455de2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "je suis ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " client",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ce58b92-5f46-4002-8a3b-6f7ed7fb339f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to speak to a representative.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2a01713c-e0ae-473d-8d62-97dcd6269eae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is your email?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3695de0d-9c9f-4f14-bced-d27a3fabc45b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I contact you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c6ef1f8-835e-479b-ac42-95fab6a41edd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je veux parler à ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " représentant.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "15e5346a-7786-4f70-abd9-ae50cc590598",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quel est votre email ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "64664b02-e82c-4d78-8d24-38eed4eb14c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Comment puis-je vous contacter ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5e2be440-ab72-4185-8369-f7dfc2a32586",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

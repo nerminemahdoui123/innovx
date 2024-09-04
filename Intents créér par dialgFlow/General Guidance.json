@@ -1,0 +1,173 @@
+{
+  "id": "45bdfb5c-01af-41e6-a693-2add2ce6aebf",
+  "name": "General Guidance",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Welcome to InnovX! I'm here to help you navigate our website. You can explore our services, learn about our company, or find specific information. What would you like to do first?\"\n\"You can start by visiting our 'Services' section to learn more about what we offer. If you need assistance, just ask!\""
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pouvez-vous m'aider à trouver des informations sur votre site ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8632df0e-684e-4a02-bb69-25884d1879b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Par où commencer sur votre site web ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "23f8726f-c578-4c27-86b7-1bd4267eb078",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "J'ai besoin d'aide pour naviguer sur vos services",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22759bac-f0a0-4f6d-9074-457c099ee32a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels services offrez-vous ?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d9cd6cf4-8902-41af-9bd4-4c2d726205f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What services do you offer?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2975d662-10a2-4d55-b2d6-362c56526180",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pouvez-vous me guider sur le site web ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "adfd1daa-804b-4524-ba52-6c5d4b4e5225",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bonjour, pouvez-vous me guider sur le site web ?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "5615252d-11a9-4a32-af65-6d32dd101f37",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where should I start on your website?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "47122447-f783-4726-8923-66e47b486c75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you help me find information on your site?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ff7c9c5-825f-4ddf-881b-5f84d8b02d1f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need help navigating your services",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b3bc0e38-98c4-4e91-8585-174c4836a4c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hello, can you guide me through the website?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "024f6347-6ec0-43f1-b0aa-43f3f2612637",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

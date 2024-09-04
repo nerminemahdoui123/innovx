@@ -1,0 +1,229 @@
+{
+  "id": "2914d6f6-8e9c-4786-9ca0-db376c9a10d7",
+  "name": "Job Offer Duration",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The response time for job applications varies, but typically, you can expect to hear back within 2 to 4 weeks. This depends on the volume of applications and the specific hiring process of InnovX."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "le temps de repondre a ",
+          "userDefined": false
+        },
+        {
+          "text": "une",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " candidature",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0cf1b02-f0d3-49f9-b4bb-da619dd10402",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quel est le délai typique pour les réponses aux offres d'emploi ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ad8698d-7b1a-41ad-9fae-89152f37c8de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Combien de temps faut-il pour traiter les offres d'emploi ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "886412ee-ef74-4f26-850d-c4ca6b5adc2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quand puis-je m'attendre à avoir des nouvelles de ma candidature ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b59121e-fbba-4b66-99cf-abaf839919ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quel est le délai de réponse pour les candidatures ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c2ce68e-c0f7-470a-8b8f-15d08cdb09c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Combien de temps faut-il pour répondre à ",
+          "userDefined": false
+        },
+        {
+          "text": "une",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " offre d'emploi ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1abc20f-c0d2-4433-9e65-3dacd4d4a900",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "combien prendre le temps de repondre d'",
+          "userDefined": false
+        },
+        {
+          "text": "une",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " job application",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd6e0781-22d3-451b-8a33-ef8d4b91ca5b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the typical duration for job offer responses?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9842708-6804-41ac-98f0-066dc64a0abc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does it take to process job offers?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4996f7fc-3d9c-43c1-96d5-9890a6728a46",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When can I expect to hear back about my job application?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bd0613e1-4857-4f6a-8513-93917ca411d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the response time for job applications?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2de273dd-8b00-4065-8d6b-bdf80e3900c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How long does it take to respond to a job offer?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16c5ada4-c50a-4abd-a695-15e3885d3655",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

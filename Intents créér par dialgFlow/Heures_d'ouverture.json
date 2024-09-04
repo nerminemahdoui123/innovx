@@ -1,0 +1,125 @@
+{
+  "id": "2daee505-ba02-4d48-9b6b-f5f1c792633c",
+  "name": "Heures_d'ouverture",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our office hours are from 9 AM to 5 PM, Monday to Friday."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heure de travaille",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3c3f24bd-9c34-4fda-a412-1d1a04ed5e1d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "time",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "41cc6678-160b-432d-87bc-6c05c219fd72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quand êtes-vous ouvert ?\"",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22c735e2-4979-4fc1-85ca-3674a7cddf9e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "À quelle heure ouvrez-vous",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb664684-b6c3-4b78-9932-981c977e28b7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are your opening hours?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "47ea30ad-30c5-4944-8727-0b2a98f6bbae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When are you open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60b2e8d9-fa7b-4884-9af9-b1117fd94edc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What time do you open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f2c1aff3-d660-4df1-9542-d38a67d8810d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

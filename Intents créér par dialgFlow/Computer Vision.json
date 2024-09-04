@@ -1,0 +1,197 @@
+{
+  "id": "b9089157-6943-483b-b882-6287a3b8f7a6",
+  "name": "Computer Vision",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our computer vision solutions are designed for various industrial applications, including object recognition, image analysis, and more.                                                          you can visite ours solutions and read more about computer vision solution"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What do you offer for computer vision?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dad528de-86c2-48f2-baf8-402af1ca4da3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parlez-moi de vos solutions de vision par ordinateur.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91300b2a-74b6-4f9f-90eb-3eaf71bc0a2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels sont vos services de vision par ordinateur ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "11e705b4-c5d7-42af-9f64-45ef71337dc9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Que proposez-vous pour la vision par ordinateur ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8373114f-5592-40bf-9985-b54cbd38f20e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How does your computer vision technology work?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1e3e103-237d-4cbf-9f52-29e9e588bb2a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Explain your computer vision solutions?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af74666f-dc1f-4b60-9630-2bab901ac22e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What do you do in the field of computer vision?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f76cc657-0410-4f54-9dc6-b56d62a4480b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Comment fonctionne votre technologie de vision par ordinateur ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "373ebe14-1478-4e64-a331-b947de7f2ebc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is computer vision solution",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3aca7dcf-4dcd-498e-ba61-a2ad4a4a8569",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "solution computer vision",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7329c5f3-3f29-4b2f-8ccb-4157bce9f053",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "computer vision",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0887b6b7-608d-4a26-9b4d-666ecd6cb943",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Expliquez-moi vos solutions de vision par ordinateur.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f264c4b3-40ba-4073-a31c-aba3d3a50ed4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Que faites-vous dans le domaine de la vision par ordinateur ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b1194e3-03f2-4db7-a6dd-571e00600114",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

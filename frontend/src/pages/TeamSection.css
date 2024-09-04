@@ -1,0 +1,80 @@
+.team-section h2 {
+  color: #0056d2;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-section h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.team-card {
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-width: 350px; 
+  margin: 0 auto; 
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.team-avatar {
+  width: 80px; 
+  height: 80px; 
+  background-color: #e0e0e0;
+  margin-bottom: 15px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; 
+}
+
+.team-name,
+.team-title {
+  text-align: center; 
+}
+
+.team-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.team-title {
+  color: #0056d2;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.team-details {
+  color: #007bff;
+  margin-top: 5px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.team-toggle-button {
+  display: block;
+  margin: 30px auto; 
+  font-size: 24px; 
+  color: #0056d2;
+  cursor: pointer;
+}
+
+.team-toggle-button:hover {
+  color: #003d80;
+}
+
+
+.center-card {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}

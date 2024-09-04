@@ -1,0 +1,100 @@
+.why-section {
+  padding: 40px 20px;
+  cursor: pointer; 
+}
+
+.what-we-do {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+  transition: background-color 0.3s ease; 
+}
+
+.what-we-do:hover {
+  background-color: #e0e4e9; 
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.image-container {
+  flex: 0 0 40%;
+  padding-right: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Transition douce pour l'image */
+}
+
+.image-container img:hover {
+  transform: scale(1.05); /* Zoom léger au survol */
+}
+
+.text-container p {
+  font-size: 16px; /* Taille de police légèrement plus grande pour améliorer la lisibilité */
+  line-height: 1.6; /* Augmente l'espacement entre les lignes pour une meilleure lisibilité */
+  color: #34495e; /* Couleur de texte plus douce et élégante */
+  margin-bottom: 20px; /* Espacement inférieur pour séparer les paragraphes */
+  text-align: justify; /* Justifie le texte pour une apparence plus nette */
+  letter-spacing: 0.5px; /* Ajoute un léger espacement entre les lettres */
+  font-family: 'Roboto', sans-serif; /* Utilise une police moderne et professionnelle */
+}
+
+.text-container h2, .text-container h1 {
+  margin-bottom: 20px; 
+}
+
+.cards-container p {
+  font-size: 14px; /* Taille de police adaptée aux cartes */
+  line-height: 1.5; /* Espacement entre les lignes dans les cartes */
+  color: #7f8c8d; 
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 48%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce pour la carte */
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.card i {
+  color: #0056d2; /* Couleur bleue des icônes */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #0056d2;
+}
+
+.card p {
+  font-size: 14px;
+  color: #7f8c8d;
+}

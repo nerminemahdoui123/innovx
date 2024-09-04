@@ -1,0 +1,145 @@
+{
+  "id": "93172af8-619f-43f8-bcba-3be714401eca",
+  "name": "Support Technique",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "For technical support, please contact us via our email support@innovx.com or call our customer service"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "My product isn't working, what should I do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cd6a5e58-b951-414d-94cd-a4ffc062f529",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I get technical support?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ccc3ce4d-cf3b-4e83-960c-dc13a19405ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need help with your product",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3ff5a955-0f5a-4096-8743-27f744b565df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Mon",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " produit ne fonctionne pas, que faire ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d8e2deaa-970a-45e3-a41f-2d9a4076a1c8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Comment puis-je obtenir du support technique ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8fe4fb28-e0db-4f9b-b4c2-8a056835b17a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "j'ai besoin d'aide pour le support technique",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d916282d-0b59-4b77-a947-b356a307b6af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "J'ai besoin d'aide avec votre produit",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8c7bc703-f5f2-4e4a-8e35-2e5fed5b92c1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

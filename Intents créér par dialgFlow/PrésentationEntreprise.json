@@ -1,0 +1,257 @@
+{
+  "id": "2ad368ac-251a-43a4-86ec-935b45e2f58d",
+  "name": "PrésentationEntreprise",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "InnovX is an innovative startup specializing in the development of artificial intelligence (AI) solutions for various industries. We offer applications for education, computer vision, biomedical fields, generative AI, business intelligence, and trading predictions, as well as coaching and consulting services."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "innovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89c6fb47-ec1d-4400-8894-f1bae551c46e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi innovX",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "856213e4-c3aa-4875-888c-e63cf4bb8d9c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi votre domaine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5aee61d1-08c0-483a-afb6-0c704e8908fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your domaine",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7bab9f63-5c14-4288-b4d4-8058847d65fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me the story of your company",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25c41a21-c1f1-4f4b-907b-321964a92dea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is InnovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ebcadded-4fae-4275-b109-2d47bc6eb489",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Introduce me to InnovX",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe5b6e7a-c633-446a-a90a-3137b54e3136",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What does InnovX do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9ad7525-c4ad-4ee5-b67b-d63f487ff542",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about your company",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7e083081-b4da-4b25-8d4a-1ed9c1d04a26",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "quelle est l'histoire de votre entrprise",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bc231c4-3a9f-4d27-b66e-9a6860f378ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "l'histoire de innovx",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bd053008-b45f-4acc-a990-458a1926a038",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Racontez-moi l'histoire de votre entreprise",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2c65b0a8-4bd3-4ad2-b91d-c7253161f3a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Qu'est-ce qu'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ed8421d6-d217-40cf-a2e7-6522e2138389",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "presente innvox",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7cf1d4e7-7793-43ea-9ea8-3cccb61101f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Présentez-moi InnovX",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e9e0be2-05f8-4386-89e3-da662187c49a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Que fait InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "757b8088-39e0-4d56-87d8-7140d7c8555e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi innovx?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "742b19cd-77c8-47cd-a77b-4dfc608c4799",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parlez-moi de votre entreprise",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6d6e150b-9864-48cf-8173-788fba997983",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

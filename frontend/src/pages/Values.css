@@ -1,0 +1,68 @@
+.values-section {
+  padding: 40px 20px;
+  background-color: #f5f7fa;
+  text-align: center;
+}
+
+.values-section h2 {
+  color: #0056d2;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.values-section h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.values-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 15%;
+  margin: 10px 0;
+  box-shadow: 0 4px 6px rgb(91, 11, 250);
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajouté pour l'animation */
+}
+
+.value-card:hover {
+  transform: translateY(-10px); /* Monte légèrement la carte */
+  box-shadow: 0 8px 16px rgba(56, 6, 255, 0.997); 
+}
+
+
+.value-card i {
+  color: #0056d2;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.value-card h3 {
+  font-size: 18px;
+  color: #0056d2;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.value-card::before {
+  content: attr(data-number);
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

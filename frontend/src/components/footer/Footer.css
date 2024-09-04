@@ -1,0 +1,113 @@
+.footer {
+  background-color: #0b1a3c;
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 23%; 
+}
+
+.footer-column.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column.social .footer-text {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer-column.social .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-column.social .social-icons a {
+  color: #000;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.footer-column.social .social-icons a:hover {
+  color: #007bff;
+}
+
+
+
+.footer-column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+  color: white;
+}
+
+.footer-column img {
+  width: 40px;
+  height: 40px; 
+  margin-right: 10px; 
+  border-radius: 50%; 
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer input[type="email"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+footer button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+footer button:hover {
+  background-color: #0056b3;
+}
+.footer .solutions a {
+  color: white; 
+  text-decoration: none;
+}
+.footer .solutions a:visited {
+  color: white; 
+}
+
+.footer .solutions a:hover {
+  color: lightgray; 
+}
+
+.footer .solutions a:active {
+  color: white; 
+}

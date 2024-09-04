@@ -1,0 +1,173 @@
+{
+  "id": "3cd39665-8343-4842-9cf4-f45cbd794c98",
+  "name": "Generative AI",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Generative AI can create original content like images, text, or videos. We use this technology for various creative applications , you can visite ours solutions to read more about this solution"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How does your generative AI work?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1938b854-0f34-4a63-acba-fedbf8afe221",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "explique moi la solution generative ai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f8a0c3e6-9bfc-4255-b155-0e90bf1fb810",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you explain your generative AI solutions?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7b75afc3-0ad7-4024-b978-a93bc56145eb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is generative AI?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "44d59821-2b6e-4c9d-a9cc-19a94215fa5d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi le generative ai",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "712ba153-936c-4dae-9ad6-12f2194861c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Comment fonctionne votre IA générative ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6ebc74d6-b168-4ade-a4f7-ab27ce70cd38",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pouvez-vous expliquer vos solutions d'IA générative ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3a9ffb0e-31f3-4b9d-b012-387414ecc038",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "generative AI",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a0b6eff-f34d-4db0-9bc9-84e0e8df0cf5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Qu'est-ce que ",
+          "userDefined": false
+        },
+        {
+          "text": "l'IA",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " générative ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9a8bb8dc-bd12-4921-87c6-9e0ebe0309bf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

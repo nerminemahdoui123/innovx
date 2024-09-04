@@ -1,0 +1,216 @@
+{
+  "id": "ddd105f7-9a07-4c41-8a65-5652e9d3cfe1",
+  "name": "AI",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. AI can perform tasks such as understanding natural language, recognizing patterns, solving problems, and making decisions."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Donnez-moi ",
+          "userDefined": false
+        },
+        {
+          "text": "une",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " définition de ",
+          "userDefined": false
+        },
+        {
+          "text": "l'IA",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        }
+      ],
+      "count": 0,
+      "id": "b68995b5-240d-4983-9e07-9d12bd4ef89e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Que signifie l'intelligence artificielle ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe7ec048-415c-4345-992b-7e3f73607b2e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Dites-moi ce qu'est l'IA",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "14196091-d1ad-41fe-9d2e-c616a96e7cba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Qu'est-ce que l'intelligence artificielle ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0fa0fe19-e24f-41ca-8fec-6a016660513c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi ai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f33545af-6374-41d0-9b04-c46e0ab823b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Give me a definition of AI",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81dc214d-68ea-47fd-9fab-c9219c810229",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What does artificial intelligence mean?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "956270e9-bd17-4979-a85e-98fc8567d6e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me what AI is?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b98afbf-843f-4ff2-a7ec-77bf959fb3ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you explain AI?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4b79802-1a8d-43e5-bf16-762131cd0c18",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is ai ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73fc71aa-a3af-4799-9a95-de48da907642",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is artificial intelligence?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a195314c-e383-4f8d-a830-c9e77d1d2ee2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

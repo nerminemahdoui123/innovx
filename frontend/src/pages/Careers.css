@@ -1,0 +1,86 @@
+.careers-page {
+  padding: 20px;
+}
+
+.careers-page h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center; 
+}
+
+.careers-page h2 {
+  color: #0056d2;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.job-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%; 
+  max-width: 1000px; 
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-details {
+  font-size: 0.9em;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px; 
+}
+
+.job-details .icon {
+  font-size: 16px;
+  color: #0056d2;
+}
+
+.job-card p {
+  margin: 15px 0; 
+  line-height: 1.6; 
+  white-space: pre-line; 
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; 
+  margin-top: 10px; 
+}
+/* Style pour le bouton "Go to Home" */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
+
+footer button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #555;
+}

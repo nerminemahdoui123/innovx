@@ -1,0 +1,149 @@
+{
+  "id": "e7fa235d-a4a5-41db-965d-3ecb8a5fe529",
+  "name": "Mission and Vision",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "InnovX's mission is to leverage artificial intelligence to solve complex problems and enhance the quality of life across various sectors. Our vision is to become a global leader in AI innovation by delivering transformative solutions that drive meaningful change and foster sustainable growth."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels sont les valeurs fondamentales d'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c1418cd-608a-474c-abd7-df8a9df9aacc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelle est la vision d'InnovX pour l'avenir ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "01052f05-a89f-41a8-a047-307f8fd2f52e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pouvez-vous décrire la vision d'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40f2f012-44c4-4c50-a1c8-0efef2fa3290",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelle est la mission d'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "471fcd7f-2094-49ee-bbf4-572c46fdf116",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the mission statement of InnovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25e25db0-791f-418d-a5f3-2a007c26038c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is InnovX's vision for the future?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96558a27-16d9-4ecf-9826-23daf37faa7a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the core values of InnovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fdbe83cf-cadb-4446-be68-0ce306d1b32d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you describe the vision of InnovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cfa25172-36fa-4689-8751-d4ea099b81bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is InnovX's mission?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d92998d4-d6ed-480c-94e1-7e07de45b191",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

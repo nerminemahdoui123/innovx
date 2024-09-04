@@ -1,0 +1,161 @@
+{
+  "id": "8c4b4c6a-2cde-43bd-8e26-bac264451007",
+  "name": "Blogs et Articles",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our blog posts are available on our website. Visit the Blog section to read our latest entries."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "article",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b1e9d7c-8308-46ce-9b59-931dfd2d8f86",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "blog",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c891a58-64f7-4383-83f8-c56ac0537158",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are your latest articles?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a6dbe6b1-c263-4226-8a76-71bb46cb72fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do you have a blog?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d8e7d7a-7bbb-4280-952a-96839511909d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where can I read your blog posts?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10d12c99-e1e2-4606-a5a5-533e3f034c14",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels sont vos derniers articles ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "256ddabf-8aca-435b-99ca-5d1e4dd0b5ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Avez-vous ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " blog ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6bac1c89-2296-41e8-a42e-26fb7503ff88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Où puis-je lire vos articles de blog ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "77cf2203-8e7b-4232-9246-ab83a80d8b41",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

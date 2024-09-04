@@ -1,0 +1,137 @@
+{
+  "id": "c7cd3af7-7e4c-46c4-b003-1509afe2b031",
+  "name": "I can't find what I'm looking for.",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I'm sorry, it seems there is a technical issue. We will resolve it as soon as possible. Thank you for your patience"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I can't find what I'm looking for.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8e9a2c4-00a8-474f-bc0a-7b4caa243327",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "The site is not working properly.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dfd282fc-3cea-4427-8a44-011c89b095d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am experiencing a technical issue.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d201a32-5e7a-414f-9263-e68c70094997",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je ne trouve pas ce que je cherche.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "085fcc50-14ab-460a-81f9-8ff393c38ade",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Le site ne fonctionne pas correctement.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "994bc6f0-df8a-43a0-b64a-f8c9bbfc2e51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je rencontre ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " problème technique.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "488954d9-86ab-4c36-8888-3cd6961693c6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

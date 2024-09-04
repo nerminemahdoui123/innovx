@@ -1,0 +1,87 @@
+
+
+.domain-container {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 80px; 
+  min-height: calc(100vh - 60px); }
+
+/* Tabs for different solutions */
+.domain-tabs {
+  width: 25%;
+  border-right: 1px solid #ccc;
+}
+
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.tab.active {
+  background-color: #007bff; 
+  color: white;
+}
+
+.tab-icon {
+  margin-right: 10px;
+}
+
+
+.tab-title {
+  font-weight: bold;
+}
+
+.domain-content {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 60px; 
+}
+
+.domain-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 500;
+  max-height: 300%;
+}
+
+.domain-card img {
+  max-width: 26%;
+  height: auto;
+  margin-top: 20px; 
+}
+
+.domain-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff; 
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
+
+footer button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #555;
+}

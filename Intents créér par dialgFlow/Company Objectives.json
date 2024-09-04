@@ -1,0 +1,197 @@
+{
+  "id": "02a89f5b-f9d3-45be-8192-31080c72964a",
+  "name": "Company Objectives",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "\"InnovX aims to revolutionize industries through cutting-edge artificial intelligence solutions. Our objectives include:\nInnovative AI Solutions: Developing state-of-the-art AI technologies to address various industry challenges.\nClient Success: Ensuring our clients achieve significant improvements and results through our solutions.\nIndustry Leadership: Establishing ourselves as leaders in the AI field by continually advancing our technologies and services.\nCollaboration and Growth: Partnering with other innovators and stakeholders to expand our impact and drive industry progress."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "innvoX objectif!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92d64459-59b5-4796-86d3-388e6721ed96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "votre objectif !",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ccf12bc6-defe-439d-9a11-70036a737fec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "quelle est votre but",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8e054bae-6fcd-49cf-b8e1-e16828b37004",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Que veut réaliser InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "59938967-6301-4d71-97da-d9fc079f138a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels sont les principaux objectifs d'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "753c8bb9-a7be-4543-950d-797c146b53ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Que cherche à accomplir InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80d77a8b-e707-4610-a380-b2d15ac221dd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pouvez-vous me parler des objectifs d'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "345817e1-ff3e-46d0-9a60-fb4796a042a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels sont les objectifs d'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ec42761c-ef5e-4154-8971-5963c072da79",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What does InnovX want to accomplish?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "47a53941-6220-49c1-b1ab-21ba03b2d46c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the main objectives of InnovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7e24f366-daff-4492-96bd-17551e9bf0b3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is InnovX aiming to achieve?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a7bf314-f131-46b3-87fc-bb7cde52c4fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you tell me about the goals of InnovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65a359ca-918c-4e06-8536-a0df618e5c1a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are InnovX's objectives?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c84acfee-5042-4f09-b00a-6117d8ebcedf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

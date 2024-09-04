@@ -1,0 +1,171 @@
+{
+  "id": "f790019a-ae8c-407e-a174-b2e402e2aac9",
+  "name": "Demande de Démonstration",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "To request a demo, please fill out the form on our contact page. We will arrange a demo tailored to your needs"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "produit demo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91e0cb59-1381-4bc2-bb51-2c3b806f4b30",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do you offer demonstrations of your solutions?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de6a1674-3a10-4636-970e-27fda60690b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I request a demo?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ebb6c4e8-c69a-4361-9668-b2d2d260e302",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I have a demo of your products?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7f8fdf63-9ebe-41fb-99b4-14901f32b0fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "démo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f8997cb1-51f9-468d-9fcc-8f1bc6035e19",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Proposez-vous des démonstrations de vos solutions ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ce5a2ab-d6bb-4bed-a754-efccc5ba92bf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Comment puis-je demander ",
+          "userDefined": false
+        },
+        {
+          "text": "une",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " démo ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0473e56c-765f-4d2a-b78a-01a4230f25a4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Puis-je avoir ",
+          "userDefined": false
+        },
+        {
+          "text": "une",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " démonstration de vos produits ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7dc19528-9581-4bb8-9d2b-1ea77da159d4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

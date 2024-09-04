@@ -1,0 +1,137 @@
+{
+  "id": "3da1cfb3-c84e-45c6-9ab7-8ef23eee363a",
+  "name": "Localisation",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We are located in Monastir, Tunisia."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "votre adresse  !",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b004004-299c-4543-be4d-06c0dd53c587",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "your location !",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f186f03f-be29-4f75-aeb4-0478671723ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is your office?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70a4b0eb-b083-4e66-b1e7-aeac491b6d9b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is your address?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53774798-b27f-4abd-a577-062254c90c21",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where are you located?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60a24745-0c1f-4221-a8a6-649dd9939c18",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Où se trouvent vos bureaux ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27cd6f4f-8c72-43d8-974b-3ffdb4aad7e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelle est votre adresse ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6d58cbd-c29c-469f-8111-c7dbbc0299f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Où êtes-vous situé ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb36e0b9-b06a-4e16-a762-d0d1178ad00d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

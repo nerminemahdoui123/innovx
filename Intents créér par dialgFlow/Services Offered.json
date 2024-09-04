@@ -1,0 +1,173 @@
+{
+  "id": "6f8d8576-22ec-4abb-a3f1-765083317c37",
+  "name": "Services Offered",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "InnovX offers a range of services including:\nAI Solutions for Education: Intelligent tutoring systems and personalized learning platforms.\nComputer Vision Solutions: Automated inspection, object recognition, and motion tracking.\nBiomedical AI: Medical image analysis, diagnostic tools, and patient data management.\nGenerative AI: Content creation and predictive modeling.\nBusiness Intelligence: Data analysis, interactive dashboards, and report generation.\nTrading Prediction: AI models for market trend forecasting.\nCoaching and Consulting: Training sessions, strategic advice, and personalized support for AI integration."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels sont les principaux services d'InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "02e3bc65-2ccc-4496-9a14-0966bf2cf725",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Dites-moi les services que vous proposez",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1dfcab3-b42a-4133-bd86-1662170e22f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelles solutions offrez-vous ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc6d05a5-ee82-46ca-82c4-c66abf057089",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pouvez-vous me parler de vos services ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5cfc058a-0d53-4004-bcbe-513167bb705f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels services propose InnovX ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a1ff72d1-8c1c-4437-b78a-3e05028f0238",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the main services of InnovX?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ad9e4b22-8122-41e5-979f-5c32e195b656",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about the services you offer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f013741-7be3-4dd8-aafc-dd21742f2af1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What solutions do you provide?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee972f25-0152-4d57-89f8-5d7ef5635e56",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi vos services",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "617ce317-0887-401f-8b25-ad2861391ac6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you tell me about your services?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a11931df-a606-41a9-ad19-f902e6afef36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What services does InnovX offer?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c015f05b-532f-4e31-92bd-5ae2943e5371",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

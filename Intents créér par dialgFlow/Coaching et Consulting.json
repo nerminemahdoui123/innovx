@@ -1,0 +1,113 @@
+{
+  "id": "0076930c-6445-48ce-9907-67e9b2190e8d",
+  "name": "Coaching et Consulting",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We offer AI coaching and consulting services to help you effectively integrate and use AI solutions in your business.                                                                                                            check our solution to learn more"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to learn more about coaching and consulting.\"",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8f831b6f-5f63-4cad-8a66-da4ada47190f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about your AI consulting services.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a2475dd-bd97-40a5-b5fe-f1ca624e657f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What coaching and consulting services do you offer?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5c02591-5f54-4d7d-b3c1-bf9461fb3191",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je voudrais en savoir plus sur le coaching et le consulting.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e79a3bc1-c040-471b-a100-58e2ff7cbad5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parlez-moi de vos services de conseil en IA",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0cf36e68-4878-473a-8eb7-f2ddc838d910",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels services de coaching et consulting offrez-vous ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b85b2c2e-8797-4c3c-b631-9764174fd107",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

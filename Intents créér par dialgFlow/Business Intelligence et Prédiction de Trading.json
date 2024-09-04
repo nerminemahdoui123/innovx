@@ -1,0 +1,137 @@
+{
+  "id": "3ceb0751-3795-4590-9930-dda30e1bd7b3",
+  "name": "Business Intelligence et Prédiction de Trading",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our business intelligence and trading prediction tools help you make decisions based on accurate data and financial forecasts.                                                                                    if you want you can check our solution to learn more about bi and tranding."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about financial prediction with AI.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a02c4789-cb72-47d8-bc77-296c3f6d46c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What tools do you use for business intelligence?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "5c86a040-13d3-45e8-b10e-186dbd71892b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What do you offer in business intelligence and trading prediction?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22bf5d31-692a-490a-a50c-a82cac9e7038",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parlez-moi de ",
+          "userDefined": false
+        },
+        {
+          "text": "la prédiction",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " financière avec l'IA.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d891fb02-e776-4203-bc85-02bbcbc889de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels outils utilisez-vous pour la Business Intelligence ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c743c08-9682-4ef3-86fa-9f3554bb87e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Que proposez-vous en intelligence d'affaires et prédiction de trading ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a79ec39f-92c0-43ac-ab5f-7de698e1c6f3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

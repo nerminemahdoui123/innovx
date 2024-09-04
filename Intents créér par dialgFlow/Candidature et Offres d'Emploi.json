@@ -1,0 +1,250 @@
+{
+  "id": "3419231c-cc31-4e83-9a36-145d759be0a5",
+  "name": "Candidature et Offres d'Emploi",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date-time",
+          "dataType": "@sys.date-time",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$date-time",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "You can apply online via our Careers page. Check our current job openings."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need job",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0979dce0-8c74-4a75-a299-9d8f603f91f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do you have any open positions?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f755600b-e085-4d7e-b57b-0bf91bff11d3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What job openings do you have?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "11cbe331-9ed4-4d99-a8f0-a21b9b29da57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I apply for a job?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f32f231e-29aa-498b-b78c-971978b6b267",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "je vais postuler",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ce5d186-7c36-47be-9e8c-218d84a85d06",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "je suis ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " developpeur web et je cherche ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " poste",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fdb60292-4861-4bd6-9def-b671a8a56df1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "comment je postule pour ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " poste",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aca7d883-5d4b-4d08-bba1-6b4c3ff75450",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "je cherche ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " travail",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e257011a-e1b7-453f-882d-cb654174851c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Avez-vous des postes ouverts ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6d269953-1142-4289-95f0-215b9ffbb220",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelles sont les offres d'emploi disponibles ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1f1f837d-a4d3-4a7f-8d10-59e691a0f264",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Comment puis-je postuler à ",
+          "userDefined": false
+        },
+        {
+          "text": "un",
+          "userDefined": false,
+          "alias": "date-time",
+          "meta": "@sys.date-time"
+        },
+        {
+          "text": " emploi ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1a31298-b8b0-431c-81f8-dd0bfaa4bb3a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

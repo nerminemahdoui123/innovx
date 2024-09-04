@@ -1,0 +1,115 @@
+{
+  "id": "a1c435c1-3834-452c-954c-c3670edb47fe",
+  "name": "Questions Incompréhensibles",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Could you please repeat your question? I didn't quite understand.",
+            "I'm sorry, I didn't catch that. Could you please ask your question again?",
+            "Could you rephrase your question? I didn't understand it fully."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I didn't understand your message.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4a2d5ce-fafa-44f6-aa11-512699cf5418",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you repeat that?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9f7fc130-e8a3-4683-99cb-c1e688924230",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't understand your response.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4830858-7cc8-4144-9267-8990f0e1fdca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je n'ai pas compris votre message.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "20aa3861-b04e-45d8-9ac4-1b8c42b3487f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pouvez-vous répéter cela ?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4aa6e642-32e1-4393-95d6-b4b66ad0ac12",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je ne comprends pas votre réponse.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3c79a801-f83e-4080-adce-b3ccf95295c3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

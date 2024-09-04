@@ -1,0 +1,185 @@
+{
+  "id": "4e2c2e7a-962c-4d09-806b-a1a58042ff35",
+  "name": "AI for Education",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We offer AI solutions to enhance teaching and learning, utilizing predictive analytics, personalization tools, and more.                                                                                                                   you can visite ours solutions and read more about this solution"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to learn more about AI in education.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0c47190c-71df-4da9-8f79-5b0e7fba8956",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je veux en savoir plus sur l'IA dans l'éducation.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96c47e28-8bf7-41c5-9f12-4628723549be",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelles sont vos applications IA pour l'enseignement ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f35785d-9868-477e-a8cc-ac9222d73d8d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parlez-moi des solutions IA pour l'éducation.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fbab5e3-9601-4954-bad1-c597a1f20550",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "quelle est la solution ai for education !",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6fef120-efe3-438e-a3c4-d84d77a49d1d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi ai for education",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6598e096-cccd-46b8-ac91-d9109fcbee8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How does your AI help in education?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6a66c852-34a1-4723-8ba4-b575d8fc7341",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What AI solutions do you offer for teaching?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bdabb372-a4a4-4328-a47e-baa7b274f073",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about your AI solutions for education",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e6151e23-5805-4962-9ccb-4d1d9c5efe93",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Comment votre IA aide-t-elle dans l'éducation ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c59b324-8951-450f-93cf-6a9879326909",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelles solutions IA proposez-vous pour l'enseignement ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7c93b84-8bac-4db6-8f96-88053c876fd3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parlez-moi de vos solutions pour l'éducation?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c07e31f-6c8a-4bbb-8c68-654a7f54aa0d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "254e8d28-460f-44be-bbae-da9886589ed2",
+  "name": "Biomedical",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We have developed AI solutions specifically for the biomedical sector, aimed at enhancing diagnostics, treatments, and medical research.                                                                  \n if you want to leran more about ai solutions check ours solutions"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to learn more about AI in biomedicine.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d45aaf5-c7d6-456c-9dee-0acca0b30e70",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tell me about AI applications in the medical field.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fce424e-b99a-498d-864a-c4ad7be75d23",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Je veux en savoir plus sur l'IA dans le biomédical.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3412250-fba2-4eb3-8c3e-e16daf352174",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are your AI solutions for biomedical?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ef99e673-39f4-4b9a-9ea1-923fa6c23216",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parlez-moi des applications IA dans le domaine médical.",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6b83abbc-8178-4454-b7b9-f9f8cefdd29a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelles sont vos solutions IA pour le biomédical ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a1d5310e-b42c-4e5b-b57e-3cd9d501a14e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

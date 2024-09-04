@@ -1,0 +1,257 @@
+{
+  "id": "4622b974-9949-45b6-afe5-410b15dc37a7",
+  "name": "AI Solutions",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "AI encompasses several domains including:\nEducation: AI-driven educational tools and platforms.\nComputer Vision: Technologies that enable machines to interpret visual data.\nBiomedical: Applications in medical diagnostics and healthcare.\nGenerative AI: Creating new content and models using AI.\nBusiness Intelligence: Analyzing business data and predicting trends.\nTrading Prediction: Forecasting market movements using AI models."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "soltion ai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f7ee9a3-f28f-4911-922e-dd1a2f939499",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelles sont les principales solution de l'IA ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31359387-d7b9-4184-9b06-0b8150322dc9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quelles sont les principales applications de l'IA ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d83cc932-ea07-4cc3-9635-f92209f2a32d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Dans quels domaines ",
+          "userDefined": false
+        },
+        {
+          "text": "l'IA",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " est-elle utilisée ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e597493b-2065-40c0-837b-121aca91cdea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quels sont les champs d'application de l'IA ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d8bddc19-971e-4b48-a9d0-34753eaf4e26",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "In which areas is AI used?",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c9a1ae73-e1d5-45a5-a870-b93b4f5fb91c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the main applications of AI?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4121e218-3b6a-4aa1-a6c1-f539d1ab82ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What fields does AI cover?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8606d11e-2a7c-4ff5-a589-d8ace5c08ab3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me about solutions ai for innovx",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "7e2589ac-32b2-4f21-a70f-27a8bcd57e3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you tell me about different areas of artificial intelligence?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "39841f35-bdd4-454e-89d7-142788635a75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "solution ai de innovx",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46d16de5-f539-48de-a7e2-3f0fcda037ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi vos solution en ai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dbb759be-4507-4001-8836-499d71cc6abb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vos solutions ai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d8c6661f-c865-4269-bbde-22a7c91fba61",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ce quoi votre solutions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "92fc4b25-e424-4068-93c5-abb499820904",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the solutions of AI?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae895dfc-9bda-4b20-a4dd-f2e6cd38961c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are the domains of AI?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f40f5332-eced-4c3e-96fd-c3d49b6c590b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

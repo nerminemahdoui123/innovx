@@ -1,0 +1,185 @@
+{
+  "id": "505a590c-92e4-495c-93d7-e8969a6cc887",
+  "name": "Merci et Confirmation",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Thank you for your message! If you have any other questions, feel free to let us know. Have a great day!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Merci et bonne journée !",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "53ca40a6-b20d-41af-b1ae-4e7a86ca9391",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Merci pour votre aide",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6b05dedf-e830-4e71-b1fb-8234283e4588",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "C'est tout ce que je voulais savoir.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "378c3bec-3f6e-44ea-bc86-4d2e2f6dcfef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you and have a nice day!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1401bba7-8180-42b7-aa36-ff879ec89b17",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "That's all I wanted to know.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c63c1a32-0ea1-4ebe-b351-0d2a88d5d8df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you for your help",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d9987db-21f3-46a5-90db-5937d8c54da3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "okey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f009b32-2987-4384-9c97-3b6801e4883b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "parfait",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de57881f-6735-4dcc-95eb-9ea860b30242",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ok",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f990627b-64be-435a-ab05-939a0e464162",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "d'accord , merci",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "97c3dd8e-2e63-4cab-8bb8-7fbc47087312",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "merci pour la reponse",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "68658ddd-356c-4525-aade-d1ec36dc96c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "merci",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce1bd926-f671-4956-b5b5-56c195d3e5e4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
