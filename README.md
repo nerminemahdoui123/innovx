@@ -1,8 +1,13 @@
 # **InnovX**
+![home](https://github.com/user-attachments/assets/428d8e59-f6a4-4e37-b1ad-3f2cc061fc73)
+![Uploading Capture d’écran 2024-09-03 135524.png…]()
+![Capture d’écran 2024-09-03 135524](https://github.com/user-attachments/assets/c31dd08c-8203-47ef-a9c8-2f7e8284166b)
+
+![blog](https://github.com/user-attachments/assets/420059e1-b03c-4f85-b83c-1c44b3f7d462)
 ![homedmin](https://github.com/user-attachments/assets/ef14926f-fa4c-4810-8431-18a1fb4c3600)
 ![solutionmanagement](https://github.com/user-attachments/assets/a6c1a5e4-af2d-4e5d-8521-57078e54f0e8)
 ![login](https://github.com/user-attachments/assets/00782d38-3507-4805-a380-cd68a3a9038a)
-![blog](https://github.com/user-attachments/assets/420059e1-b03c-4f85-b83c-1c44b3f7d462)
+
 
 
 
