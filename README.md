@@ -41,12 +41,14 @@ Pour le **frontend** :
 cd frontend
 npm install
 npm start
+
 Pour le **backend **:
 
 ```bash
 cd backend
 npm install
 npm start
+bash```
 -Assurez-vous également d'ouvrir le fichier de base de données (innovx) dans phpMyAdmin pour vérifier les tables et les données.
 
 ## **Configuration des Variables d'Environnement**
